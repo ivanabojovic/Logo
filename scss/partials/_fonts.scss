@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+$font-playfair-display: 'Playfair Display', serif;
+
+@font-face {
+    font-family: 'futuramedium';
+    src: url('../../css/fonts/futura_medium_bt-webfont.woff2') format('woff2'),
+         url('../../css/fonts/futura_medium_bt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+$font-futura: 'futuramedium', sans-serif;
+
+
+@font-face {
+  font-family: 'AvenirNextLTPro-Bold';
+  src: url('../../css/fonts/AvenirNextLTPro-Bold.woff2') format('woff2'),
+       url('../../css/fonts/AvenirNextLTPro-Bold.woff') format('woff');
+       
+}
+
+
+  $font-avenirnext-bold: 'AvenirNextLTPro-Bold', sans-serif;
+  
+  
+  
+@font-face {
+  font-family: 'AvenirNextLTPro-Regular';
+  src: url('../../css/fonts/AvenirNextLTPro-Regular.woff2') format('woff2'),
+       url('../../css/fonts/AvenirNextLTPro-Regular.woff') format('woff');
+       
+}
+
+
+  $font-avenirnext-regular: 'AvenirNextLTPro-Regular', sans-serif;
+

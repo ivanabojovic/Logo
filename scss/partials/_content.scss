@@ -1,0 +1,43 @@
+.content {
+    .container {
+        border-top:1px solid $black;
+    }
+    .content-description {
+        font-family:$font-playfair-display;
+        font-weight:bold;
+    }
+    article {
+        .content-hover {
+            position:absolute;
+            top:35%;
+            left:40%;
+            display:none;
+        }
+        &:hover .content-hover {
+            display:block;
+            cursor:pointer;
+        }
+    }
+}
+
+@media(min-width:576px) {
+    .content {
+        article {
+            .content-hover {
+                top:40%;
+                left:30%;
+            }
+        }
+    }
+}
+@media(min-width:768px) {
+    .content {
+        article {
+            .content-hover {
+                top:35%;
+                left:40%;
+            }
+        }
+    }
+}
+

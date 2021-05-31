@@ -1,0 +1,87 @@
+.celebrity-2 {
+    .description {
+/*        padding-left:30px;
+        padding-right:250px;*/
+
+        .date {
+            font-size:14px;
+            color:#C1C5CB;
+
+        }
+        .description-2 {
+            font-family:$font-playfair-display;
+            font-weight:bold;
+            font-size:18px;
+        }
+    }
+    figure {
+        width:950px;
+        .hover-celebrity {
+            display:none;
+            position:absolute;
+            top:40%;
+            left:40%;
+        }
+        &:hover .hover-celebrity {
+            display:block;
+            cursor:pointer;
+        }
+    }
+    .pagination {
+        li {
+            display:inline-block;
+            margin-right:5px;
+            padding:10px;
+            border:0.7px solid #000;
+            color:#E8EEF7;
+            width:37px;
+            text-align: center;
+            font-weight: bold;
+            
+        }
+        li.active {
+            background-color:#E8EEF7;
+        }
+        .dots {
+                border:none;
+            }
+        a {
+            color:#000 !important;
+            text-decoration:none;
+            &:hover {
+                text-decoration:none;
+            }
+        }
+        .pagination > li.active > a, .pagination > li.active > a:hover {
+
+            background-color:#E8EEF7 !important;
+        }
+    }
+    .pseudo-2 {
+        flex-direction:column;
+    }
+}
+
+@media(min-width:768px){
+    .celebrity-2 {
+        .description {
+        padding-left:30px;
+        padding-right:250px;
+
+        .date {
+            font-size:14px;
+            color:#C1C5CB;
+
+        }
+        .description-2 {
+            font-family:$font-playfair-display;
+            font-weight:bold;
+            font-size:27px;
+        }
+    }
+        .pseudo-2 {
+            flex-direction:row;
+        }
+    }
+}
+

@@ -1,0 +1,26 @@
+.kylie-2 {
+    .container {
+        border-top:1px solid $black;
+        .heading {
+            letter-spacing:1px;
+            
+            span {
+                font-size:13.5px !important;
+            }
+        }
+        figure {
+            .kylie-2-hover {
+                position: absolute;
+                top: 60px;
+                left: 140px;
+                display:none;
+            }
+            &:hover .kylie-2-hover{
+                display:block;
+                cursor:pointer;
+            }
+        }
+    }
+
+}
+

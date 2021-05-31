@@ -1,0 +1,56 @@
+.beauty {
+    .container {
+        border-top:1px solid $black;
+    }
+    .beauty-heading {
+        letter-spacing: 1px;
+        span {
+            font-size:13.5px;
+        }
+    }
+    article {
+        .beauty-hover {
+            position:absolute;
+            top:45%;
+            left:45%;
+            display:none;
+        }
+        &:hover .beauty-hover{
+            display:block;
+            cursor:pointer;
+        }
+    }
+    .beauty-item {
+        .beauty-item-heading {
+            font-family:$font-playfair-display;
+            font-weight:bold;
+        }
+    }
+}
+
+@media(min-width:576px) {
+    .beauty {
+        article {
+       .beauty-hover {
+        position:absolute;
+        top:50%;
+        left:30%;
+        
+    } 
+    }
+    }
+}
+
+@media(min-width:768px) {
+    .beauty {
+        article {
+       .beauty-hover {
+        position:absolute;
+        top:40%;
+        left:40%;
+        
+    } 
+    }
+    }
+}
+

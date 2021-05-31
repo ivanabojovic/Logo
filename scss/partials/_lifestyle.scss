@@ -1,0 +1,73 @@
+.lifestyle {
+    .container {
+        border-top:1px solid $black;
+        width:1200px;
+
+    }
+    .lifestyle-heading {
+        letter-spacing: 1px;
+        span {
+            font-size:13.5px;
+        }
+    }
+    figure {
+        .lifestyle-hover {
+            position:absolute;
+            display:none;
+            top:50%;
+            left:10%;
+        }
+        &:hover .lifestyle-hover {
+            display:block;
+            cursor:pointer;
+        }
+    }
+    .lifestyle-description {
+        position:absolute;
+        bottom:0%;
+        left:0;
+
+        .lifestyle-description-item {
+            font-family:$font-avenirnext-bold;
+            font-weight:bolder;
+            padding-left: 23px;
+            padding-bottom: 3px;
+
+        }
+    }
+}
+
+
+@media(min-width:576px) {
+    .lifestyle {
+        figure {
+        .lifestyle-hover {
+            position:absolute;
+            top:50%;
+            left:20%;
+        }
+    }
+    }
+}
+@media(min-width:768px) {
+    .lifestyle {
+        figure {
+        .lifestyle-hover {
+            position:absolute;
+            top:40%;
+            left:40%;
+        }
+    }
+    }
+}
+@media(min-width:992px) {
+    .lifestyle {
+        figure {
+        .lifestyle-hover {
+            position:absolute;
+            top:45%;
+            left:45%;
+        }
+    }
+    }
+}

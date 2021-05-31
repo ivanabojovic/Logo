@@ -1,0 +1,56 @@
+.section-1 {
+
+    background-size:cover;
+    background-position: center center;
+    padding-top:350px;
+    padding-bottom:200px;
+
+    .beauty {
+        position:absolute;
+        bottom:40px;
+        left:5%;
+        text-align:left;
+        .links {
+            padding-bottom:5px;
+        }
+
+        .heading-1 {
+            font-size:2.3rem;
+            font-family: $font-avenirnext-bold !important;
+            font-weight:bolder;
+            letter-spacing:1px;
+
+        }
+    }
+    .play {
+        text-align:center;
+        display:none;
+    }
+    &:hover .play {
+            display:block !important;
+            cursor:pointer;
+            position:absolute;
+            bottom:50%;
+            left:50%;
+        }
+    
+
+
+}
+@media(min-width:768px) {
+    .section-1 {
+        .play {
+        text-align:center;
+        display:none;
+    }
+    &:hover .play {
+            display:block !important;
+            cursor:pointer;
+            position:absolute;
+            top:40%;
+            left:45%;
+        }
+    }
+}
+
+
