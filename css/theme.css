@@ -33,13 +33,10 @@ header .header-top .search-form {
   top: 40%;
   display: none; }
   header .header-top .search-form .input-group {
-    max-width: 1200px; }
+    max-width: 250px; }
   header .header-top .search-form .form-control {
-    background-color: #F4F7FC; }
-  header .header-top .search-form .input-group-append {
-    position: absolute;
-    right: 8px;
-    top: 4px; }
+    background-color: #F4F7FC;
+    max-width: 250px; }
   header .header-top .search-form .search-icon-in-form {
     position: absolute;
     width: 100%;
@@ -68,6 +65,10 @@ header .header-bottom .navbar .navbar-collapse {
         background-color: #F4F7FC; }
 
 @media (min-width: 768px) {
+  header .header-top .search-form .input-group {
+    max-width: 1200px; }
+  header .header-top .search-form .form-control {
+    max-width: 1200px; }
   header .header-bottom .navbar .navbar-collapse .navbar-nav .oval-copy {
     margin-top: 12px;
     width: 6px;
@@ -208,7 +209,8 @@ header .header-bottom .navbar .navbar-collapse {
   position: absolute;
   display: block;
   bottom: 5%;
-  left: 5%; }
+  left: 5%;
+  color: #000; }
   .most-viewed .most-viewed-description h1, .most-viewed .most-viewed-description p {
     font-family: "AvenirNextLTPro-Bold", sans-serif !important;
     font-weight: bolder; }

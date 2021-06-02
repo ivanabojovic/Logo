@@ -15,16 +15,13 @@ header {
             top:40%;
             display:none;
             .input-group {
-                max-width:1200px;
+                max-width:250px;
             }
             .form-control {
                 background-color:#F4F7FC;
+                max-width:250px;
             }
-            .input-group-append {
-                position: absolute;
-                right: 8px;
-                top: 4px;
-            }
+            
 
             .search-icon-in-form {
                 position:absolute;
@@ -79,6 +76,16 @@ header {
 
 @media(min-width:768px) {
     header {
+        .header-top {
+            .search-form {
+                .input-group{
+                    max-width:1200px;
+                }
+                .form-control {
+                    max-width:1200px;
+                }
+            }
+        }
         .header-bottom {
             .navbar {
 
